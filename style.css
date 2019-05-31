@@ -1,0 +1,465 @@
+/* Write all your CSS here */
+
+/* Please indent properly */
+
+/* Please use only lower-case letters */
+
+/* Your webpage should be 100% responsive!!! */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* sidebar */
+
+aside {
+    background-color: #3f0e40;
+    color: #b29fb2;
+    padding: 18px;
+}
+
+/* sidebar top */
+
+.tk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tk h1 {
+    margin: 0;
+    color: #fbfbfb;
+    font: 800 1.2em 'Lato', sans-serif;
+    display: inline-block;
+}
+
+.fa-chevron-down {
+    font-size: 8px;
+    padding: 3px;
+    color: #fbfbfb;
+}
+
+.fa-bell {
+    font-size: 18px;
+    margin: 0;
+}
+
+.fa-circle {
+    color: #38978d;
+    font-size: 11px;
+    padding: 3px;
+}
+
+.sidebar-header h4 {
+    font: 400 1em 'Lato', sans-serif;
+    margin-top: 3px;
+}
+
+aside input {
+    background-color: #260127;
+    border: none;
+    padding: 5px 5px;
+    margin: 6px 0px;
+    border-radius: 5px;
+    font: 400 15px 'Lato', sans-serif;
+}
+
+.threads {
+    margin: 7px 0px;
+}
+
+/* channels */
+
+.chan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside h4 {
+    margin: 11px 0;
+}
+
+.fa-plus-circle {
+    font-size: 14px;
+    color: #b29fb3;
+}
+
+aside a {
+    text-decoration: none;
+    color: #b29fb3;
+}
+
+aside ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+aside li {
+    list-style: none;
+    padding: 3px 0px;
+    font: 400 1em 'Lato', sans-serif;
+}
+
+aside ul li i {
+    margin-right: 3px;
+    font-size: 13px;
+}
+
+/* aside hover styles */
+
+.sidebar-header:hover {
+    background-color: #350d36;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.threads:hover {
+    background-color: #350d36;
+}
+
+.chan:hover {
+    color: #ffffff
+}
+
+ul>li:hover {
+    background-color: #350d36;
+}
+
+.direct-msg h4:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+ul>li:active {
+    background-color: #1164A3;
+}
+
+li>a:active {
+    color: #ffffff;
+}
+
+/* main chat area */
+
+section {
+    width: 100%;
+}
+
+header {
+    padding: 10px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-icons p {
+    display: inline-block;
+    border-right: solid 1px #616061;
+    padding-right: 5px;
+    margin: 3px;
+    font-size: 13px;
+}
+
+header h2 {
+    font: 800 1.3em 'Lato', sans-serif;
+    margin: 0px;
+}
+
+.chat-icons i {
+    padding: 5px 3px;
+    color: #757575;
+    font-size: 12px;
+}
+
+.chat-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chat-search i {
+    padding: 5px;
+    color: #757575;
+    font-size: 16px;
+}
+
+.chat-search input {
+    border-radius: 5px;
+    border: solid 1px #616061;
+    padding: 5px 15px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    width: 38%;
+    height: 0;
+}
+
+.date p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1d1c1d;
+}
+
+/* messages */
+
+.armia {
+    padding: 0 15px;
+    display: flex;
+    position: relative;
+}
+
+.messages figure {
+    margin: 10px;
+}
+
+.messages figure>img {
+    height: 45px;
+    border-radius: 3px;
+}
+
+.armia-msg {
+    display: flex;
+    flex-direction: column;
+}
+
+.armia-msg time {
+    font-size: 12px;
+    font-weight: 400;
+    color: #616061;
+    margin: 0 5px;
+}
+
+.link {
+    color: #1264a3;
+}
+
+.messages p {
+    margin: 2px;
+    font-size: 18px;
+}
+
+.messages h4 {
+    margin: 3px 0px 7px 0px;
+    font-weight: 800;
+}
+
+#video {
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+}
+
+#video h4 {
+    color: #1d1c1d;
+    font-weight: 600;
+}
+
+#video i {
+    color: #1264a3;
+    padding: 5px;
+}
+
+#type-msg {
+    border: 1.3px solid #868686;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1em;
+    display: flex;
+    flex: 1;
+}
+
+#type-msg i {
+    font-size: 20px;
+    padding: 5px;
+    color: #868686;
+}
+
+#type-msg input {
+    width: 90%;
+    border: none;
+}
+
+#type-msg .fa-plus {
+    border-right: 1.3px solid #868686;
+    padding: 5px;
+}
+
+/* chat hover style */
+
+header .fa-star:hover {
+    color: #f2c744;
+    cursor: pointer;
+}
+
+#blue:hover {
+    color: #126dba;
+    cursor: pointer;
+}
+
+#blue:hover i {
+    color: #126dba;
+    cursor: pointer;
+}
+
+.fa-at:hover {
+    color: #e01e5a;
+    cursor: pointer;
+}
+
+.chat-search input:hover::placeholder {
+    color: #126dba;
+    cursor: pointer;
+}
+
+.topic:hover {
+    border: solid 1px #616061;
+    border-radius: 5px;
+    margin: 0;
+}
+
+/* messages hover style */
+
+.armia:hover {
+    background-color: #f8f8f8;
+}
+
+#hover-icons {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    display: none;
+    border: 1px solid #616061;
+    border-radius: 5px;
+}
+
+#hover-icons i {
+    padding: 5px;
+    border-right: 1px solid #616061;
+    margin: 0;
+}
+
+.armia:hover #hover-icons {
+    display: block;
+}
+
+#hover-icons i:hover {
+    color: #126dba;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    hr {
+        width: 35%;
+        height: 0;
+    }
+    .date p {
+        font-size: 13px;
+        font-weight: 600;
+        color: #1d1c1d;
+    }
+    #video img {
+        width: 300px;
+    }
+    aside {
+        padding: 6px;
+    }
+    aside input {
+        padding: 5px 5px;
+        font: 400 10px 'Lato', sans-serif;
+    }
+    header {
+        padding: 5px;
+    }
+    .chat-search input {
+        padding: 3px 3px;
+        width: 100%;
+    }
+    .chat-icons {
+        width: 100%;
+    }
+    .chat-icons i {
+        padding: 5px 1px;
+        font-size: 10px;
+        margin: 0px;
+    }
+    .chat-search i {
+        padding: 2px;
+        margin: 0px;
+    }
+    .armia {
+        padding: 0 8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    aside {
+        padding: 20px;
+    }
+    aside input {
+        padding: 5px 15px;
+        font: 400 15px 'Lato', sans-serif;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .date p {
+        font-size: 13px;
+        font-weight: 600;
+        color: #1d1c1d;
+    }
+    .messages p {
+        font-size: 11px;
+    }
+    .messages figure>img {
+        height: 35px;
+    }
+    #video img {
+        width: 230px;
+    }
+    #video {
+        width: 250px;
+    }
+    .chat-search {
+        display: none;
+    }
+    .chat-icons {
+        display: none;
+    }
+    .channels ul {
+        display: none;
+    }
+    .date hr {
+        display: none;
+    }
+    .date p {
+        border-bottom: 1px solid #616061;
+        color: #1d1c1d;
+        width: 100%;
+    }
+    .armia {
+        padding: 0;
+    }
+}
