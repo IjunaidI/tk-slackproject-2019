@@ -1,5 +1,11 @@
 # tk-slackproject-2019
 
+Project link: https://ijunaidi.github.io/tk-slackproject-2019/;
+
+currently 3 pages are working Student showcase, chat and freecodecamp.
+
+Aleem ( student-showcase page ) is missing anchor tags on his sidebar therefore links are not working on it. 
+
 ## Reviews
 
 ### Armia
@@ -11,7 +17,7 @@ File Name: index.html
 ### Aleem
 
 Nice work but not pixel perfect is missing fonts and code structure can be improved and I saw the overuse of the "<figure>" tag.
-But still really good attempt and provided the project on time good job.
+But still really good attempt and provided the project on time good job. He is missing anchor tags on his sidebar therefore links are not working on it. 
 
 File Name: student-showcase-aleem.html
 
