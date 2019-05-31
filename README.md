@@ -1,18 +1,5 @@
 # tk-slackproject-2019
 
-## Common Mistakes
-
-All the students missed to apply height: 100vh; on the body hense there app not covering the full screen.
-
-## Complains
-
-Most of the students didn't provided me there projects even being asked several times on the slack group.
-only three students provided me with there projects.
-
-1. Syed Aleem Hussain
-2. Armia
-3. Khadija Tul Kubra
-
 ## Reviews
 
 ### Armia
@@ -35,5 +22,20 @@ but she informed me before about she having some internet issue but still she di
 Her "class" names and html strucutre was pretty good comparision of other students. Overall Good attempt.
 
 File Name: freecodecamp-khadija.html
+
+
+## Common Mistakes
+
+All the students missed to apply height: 100vh; on the body hense there app not covering the full screen.
+
+## Complains
+
+Most of the students didn't provided me there projects even being asked several times on the slack group.
+only three students provided me with there projects.
+
+1. Syed Aleem Hussain
+2. Armia
+3. Khadija Tul Kubra
+
 
   
