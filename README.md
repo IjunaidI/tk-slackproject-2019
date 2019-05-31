@@ -32,7 +32,7 @@ File Name: freecodecamp-khadija.html
 
 ## Common Mistakes
 
-All the students missed to apply height: 100vh; on the body hense there app not covering the full screen.
+All the students missed to apply height: 100vh; on the body hense there app is not covering the full screen.
 
 ## Complains
 
@@ -43,5 +43,15 @@ only three students provided me with there projects.
 2. Armia
 3. Khadija Tul Kubra
 
+## General review
 
+In 2 months I see great progress here that's abvious some students may not be as Good as others but if we see the overall progress
+it is going really great and I can see some students have pretty good potential now it all just depends on there hardwork.
+These projects were Good but still Incomplete which dosents make sense after the given time of a whole week.
+Even some of the students had already nearly completed the app in the class.
+That show's that really few have spend time at home on the project which is not a good practice.
+From my end they should have completed it until now specially these 3 students as they were really good but they didn't gave 
+enough time on there tasks at home.
+
+Except the part of working and practicing at home they all have shown good progress.
   
